@@ -1,0 +1,62 @@
+/* Website Styles */
+
+* {
+  /* font-size: 100%; */
+}
+
+body {
+  background-color: black;
+  color: #f2ff92;
+  font-family: 'Oxanium', cursive;
+  font-size: 14px;
+}
+
+h1 {
+  color: yellow;
+  font-size: 36px;
+  text-align: left;
+}
+
+h2 {
+  color: yellow;
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+  font-style: italic;
+}
+
+p {
+  color: #f2ff92;
+  line-height: 2;
+}
+
+section {
+  color: yellow;
+}
+
+footer p {
+  color: white;
+  font-size: 36px;
+}
+
+a:link,
+a:focus,
+a:active {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+a:visited {
+  color: orange;
+}
