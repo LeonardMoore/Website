@@ -37,6 +37,14 @@
   font-size: 26px;
 }
 
+.radio-signal {
+  diplay: grid;
+  grid-template-columns: 400px 800px;
+  align-items: start;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
 body {
   background-color: black;
   color: #f2ff92;
