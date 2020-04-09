@@ -13,6 +13,30 @@
   text-decoration: underline;
 }
 
+.mercury {
+  display: grid;
+  grid-template-columns: 300px 800px;
+  align-items: start;
+  justify-content: space-between;
+  font-size: 26px;
+}
+
+.kepler {
+  display: grid;
+  grid-template-columns: 400px 800px;
+  align-items: start;
+  justify-content: space-between;
+  font-size: 26px;
+}
+
+.saturn {
+  display: grid;
+  grid-template-columns: 400px 800px;
+  align-items: start;
+  justify-content: space-between;
+  font-size: 26px;
+}
+
 body {
   background-color: black;
   color: #f2ff92;
@@ -34,12 +58,18 @@ footer {
   padding: 10px;
 }
 
+body,
+section,
+h2 {
+  text-align: left;
+}
 
 img {
   width: 400px;
   height: 300px;
   border: 1px solid white;
   padding: 10px, 10px, 10px, 10px;
+  /* image-align: left; */
 }
 
 h1 {
@@ -70,7 +100,8 @@ p {
 }
 
 ul, ol {
-  margin: 50px 0;
+  margin: 25px 0;
+  /* text-align: right; */
 }
 
 section {
